@@ -1,3 +1,9 @@
-import { postType } from "./postType";
+import { artistType } from "./artistType";
+import { eventType } from "./eventType";
+import { venueType } from "./venueType";
 
-export const schemaTypes = [postType]
+export const schemaTypes = [
+    eventType,
+    artistType,
+    venueType
+]
